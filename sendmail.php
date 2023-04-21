@@ -11,9 +11,9 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('указать!', 'Фрилансер по жизни');
+	$mail->setFrom('kuchmastanislav@bigmir.net', 'Фрилансер по жизни');
 	//Кому отправить
-	$mail->addAddress('указать!');
+	$mail->addAddress('kuchmastanislav73@gmail.com');
 	//Тема письма
 	$mail->Subject = 'Привет! Это "Фрилансер по жизни"';
 
